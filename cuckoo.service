@@ -1,0 +1,14 @@
+[Unit]
+Description=Main Cuckoo Sandbox Master Server
+Requires=cuckoo-rooter.service
+
+[Service]
+User=cuckoo
+Group=cuckoo
+Type=simple
+ExecStart=/usr/local/bin/cuckoo
+WorkingDirectory=~
+
+[Install]
+WantedBy=multi-user.target
+

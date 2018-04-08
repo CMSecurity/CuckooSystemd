@@ -1,0 +1,10 @@
+[Unit]
+Description=Cuckoo Sandbox Root Socket
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/cuckoo rooter
+
+[Install]
+WantedBy=multi-user.target
+

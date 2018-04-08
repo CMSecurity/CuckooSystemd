@@ -1,0 +1,14 @@
+[Unit]
+Description=Cuckoo Sandbox Web UI
+Requires=cuckoo-rooter.service
+
+[Service]
+User=cuckoo
+Group=cuckoo
+Type=simple
+ExecStart=/usr/local/bin/cuckoo web --host 0.0.0.0
+WorkingDirectory=~
+
+[Install]
+WantedBy=multi-user.target
+
