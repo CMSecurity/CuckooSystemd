@@ -1,6 +1,6 @@
 # CuckooSystemd
-This Repo contains Systemd Unit Files for usage with cuckoo
-Just copy these files into `/etc/systemd/system` and perform a `systemctl daemon-reload` to load the services.
+This Repo contains Systemd Unit Files for usage with cuckoo  
+Just copy these files into `/etc/systemd/system` and perform a `systemctl daemon-reload` to load the services.  
 
 These services:
 - assume that you have the user and group named `cuckoo`
