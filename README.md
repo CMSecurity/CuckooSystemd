@@ -7,3 +7,4 @@ These services:
 - will run `cuckoo rooter` as root
 - will run the analysis engine and the web interface as `cuckoo` user
 - will run the web interface bound to all ips (0.0.0.0)
+- will run the API bound to all ips (0.0.0.0) on port 8090

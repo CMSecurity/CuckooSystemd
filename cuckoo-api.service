@@ -1,0 +1,13 @@
+[Unit]
+Description=Cuckoo Sandbox API
+
+[Service]
+User=cuckoo
+Group=cuckoo
+Type=simple
+ExecStart=/usr/local/bin/cuckoo api --host 0.0.0.0
+WorkingDirectory=~
+
+[Install]
+WantedBy=multi-user.target
+
