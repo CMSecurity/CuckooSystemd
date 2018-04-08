@@ -7,3 +7,5 @@ These services:
 - will run `cuckoo rooter` as root
 - will run the analysis engine and the web interface as `cuckoo` user
 - will run the web interface bound to all ips (0.0.0.0)
+
+Tested on an Ubuntu 16.04 LTS with a fresh cuckoo install according to their documentation
